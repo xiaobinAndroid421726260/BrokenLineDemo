@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="brokenLineView">
+        <!-- xy轴线颜色 -->
+        <attr name="dbz_xy_line_color" format="color" />
+        <!-- xy轴线的宽度 -->
+        <attr name="dbz_xy_line_width" format="dimension" />
+        <!-- xy轴上的文字颜色 -->
+        <attr name="dbz_xy_text_color" format="color" />
+        <!-- xy轴上的文字大小 -->
+        <attr name="dbz_xy_text_size" format="dimension" />
+        <!-- 折线的颜色 -->
+        <attr name="dbz_line_color" format="color" />
+        <!-- x轴坐标点间距 -->
+        <attr name="dbz_interval" format="dimension" />
+        <!-- 折线点位信息颜色 -->
+        <attr name="dbz_content_color" format="color" />
+        <!-- 背景颜色 -->
+        <attr name="dbz_bg_color" format="color" />
+    </declare-styleable>
+
+</resources>

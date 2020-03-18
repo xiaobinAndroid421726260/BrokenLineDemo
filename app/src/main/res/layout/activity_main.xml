@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <com.dbz.example.BrokenLineView
+            android:id="@+id/lineview"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            app:dbz_bg_color="@android:color/white"
+            app:dbz_content_color="#17894E"
+            app:dbz_line_color="#17894E"
+            app:dbz_xy_line_color="#cccccc"
+            app:dbz_xy_line_width="1dp"
+            app:dbz_xy_text_color="#494848"
+            app:dbz_xy_text_size="13dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="分割线" />
+
+        <com.dbz.example.BrokenLineView
+            android:id="@+id/lineview1"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            app:dbz_bg_color="@android:color/white"
+            app:dbz_content_color="@android:color/holo_red_light"
+            app:dbz_line_color="@android:color/holo_red_light"
+            app:dbz_xy_line_color="#cccccc"
+            app:dbz_xy_line_width="1dp"
+            app:dbz_xy_text_color="#494848"
+            app:dbz_xy_text_size="13dp" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
